@@ -1,0 +1,8 @@
+<ifModule mod_deflate.c>
+<filesMatch "\.(js|css)$">
+SetOutputFilter DEFLATE
+</filesMatch>
+</ifModule>
+
+Header unset ETag
+FileETag None

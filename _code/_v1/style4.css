@@ -1,0 +1,119 @@
+/*
+
+Basic blue: 006699
+
+*/
+body {
+  background-color:#3E4045;
+  color:#fff;
+  font-family: 'Asap', Arial, sans-serif; 
+  font-size:18px;
+  line-height:22px; 
+  padding:0;
+  margin:0;
+}
+h1,h2,h3,h4,h5 {
+	font-family: 'Pacifico', cursive;
+	font-weight:normal;
+}
+a, a:hover, a:link, a:visited {
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}
+a.btn {
+	color:#006699 !important;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:18px;
+}
+.start a, .header a, .footer a, .even a {
+	color:#fff;
+}
+.start a:hover, .header a:hover, .footer a, .even a:hover {
+	color:#eee;
+}
+.odd a {
+	color:#006699;
+}
+.odd a:hover {
+	color:#333;
+}
+.odd, .even, .header, .start, .footer {
+	padding-top:2%;
+	padding-bottom:1.5%;
+	-webkit-box-shadow: 0 -15px 20px rgba(1, 1, 1, 0.1) inset;
+	-moz-box-shadow:    0 -15px 20px rgba(1, 1, 1, 0.1) inset;
+	box-shadow:         0 -15px 20px rgba(1, 1, 1, 0.1) inset;	
+}
+.start, .footer {
+	background-color:#3E4045;
+}
+.header {
+	background-color:#006699;
+}
+.shove {
+	background-color:#0099CC;
+	border-radius: 6px;
+	padding: 20px 10px;
+	margin: 10px;
+}
+.odd {
+	background-color:#fff;
+	color:#3E4045;
+}
+.even {
+	background-color:#006699;	
+	/*background-color:#0088CC;*/
+}
+/* elements */
+.start, .footer {
+	text-align:center;
+}
+.announcement {
+	background-color:#C33;
+	font-size:16px;
+	padding-top:1%;
+	padding-bottom:0.25%;
+	text-align: left;
+}
+.announcement .img img {
+	display: block;
+	margin: 10px auto;
+}
+.announcement .welcome {
+		
+}
+.header {
+}
+.header h1 {
+  font-size:50px;
+  line-height:60px;
+  padding-bottom:30px;
+  padding-top:8%;
+}
+.header h2 { 
+	padding-bottom:20px;
+}
+.header p {
+  font-size:22px;
+  line-height:30px;
+}
+.action {
+	padding-top:20px;
+	padding-bottom:4%;
+}
+.action p {
+	text-align:center;
+}
+.odd p, .even p {
+	padding-top:10px;
+}
+.footer {
+  text-align:center;
+  text-transform:uppercase;
+}
+.image {
+	text-align:center;
+}

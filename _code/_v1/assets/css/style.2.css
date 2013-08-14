@@ -1,0 +1,576 @@
+/* -------------------------------------------------------------------------------------------- */
+/* Main styles */
+/* -------------------------------------------------------------------------------------------- */
+body 
+{
+	background-color:#CA2C79;
+	color:#fff;
+	/*background-image:url(../img/woody.jpg);*/
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+h1,h2,h3,h4,h5
+{
+	font-weight:normal;
+	font-family: 'Rye', cursive;
+}
+a,a:link
+{
+	color:#CA2C79;
+	text-decoration:underline;
+}
+a:hover
+{
+	text-decoration:none;
+}
+a:visited
+{
+	color:#B3487B ;
+}
+i
+{
+	font-style:normal;
+}
+p
+{
+	font-size:16px;
+}
+li
+{
+	margin-bottom:10px;
+	padding-right:20px;
+}
+.bodywrap
+{
+	position:relative;
+}
+.title 
+{
+	text-align:center;	
+	margin-bottom:25px;
+}
+.title h1
+{
+	font-size:50px;
+	margin-bottom:20px;
+}
+.title p
+{
+	font-size:18px;
+}
+/* sponsor sqweeeeeeeeeeeeeze */
+.sponsorsqueeeeeeze
+{
+	background:#333;
+	padding:10px 0;
+	text-align:center;
+}
+.sponsorsqueeeeeeze p
+{
+	margin:0 20px;
+}
+.sponsorsqueeeeeeze a
+{
+	color:#fefefe;
+}
+/* header - nav */
+header
+{
+	z-index:9999;
+	background:#333;
+	position:fixed;
+	width:100%;
+	top:0;
+	border-bottom:1px solid #bbb;
+	box-shadow:0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.navbar
+{
+	margin-bottom:0;
+	background:none;
+	padding:5px 0;
+	height:40px;
+}
+.navbar-inner
+{
+	background-color:#333 !important;
+	background-image:none !important;
+	margin:0;
+	padding:0;
+	border:none;
+	min-height:0;
+	border-radius:0;		
+}
+.navbar .nav > li
+{
+	margin:0;
+	
+}
+.navbar .nav > li > a
+{
+	color:#fff;
+	text-shadow:none;
+	font-size:16px;
+	border-radius:0;	
+}
+.navbar .nav > li > a i
+{
+	margin:3px;
+}
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:active,
+.navbar .nav > li > a:focus
+{
+	color:#eee;
+	background:#666;
+}
+.navbar .nav
+{
+	border-top:0;
+}
+.nav-collapse .nav,
+.nav-collapse .nav > li > a
+{
+	margin:0;
+}
+.topnav
+{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+/* content */
+#content .container
+{
+	padding-top:80px;
+	padding-bottom:40px;
+}
+#speakers, #shedule
+{
+	background-color:#fefefe;
+	color:#CA2C79;
+}
+#sponsors a,
+#venue a
+{
+	color:#fefefe !important;
+}
+
+/* blocks */
+
+/* start - tickets */
+#start
+{
+	text-align:center;
+}
+#start h2
+{
+	font-size:80px;
+	line-height:100px;
+	text-align:center;
+}
+#start h2 i
+{
+	color:#222;
+}
+#start h3.date
+{
+	color:#222;
+	padding-left:20px;
+	padding-right:20px;	
+}
+#start p
+{
+	font-size:20px;
+	line-height:25px;
+	padding-left:20px;
+	padding-right:20px;
+}
+#start .buy a.btn-inverse
+{
+	font-size:25px;
+	padding:14px 20px;
+	width:200px;
+	color:#fff;
+	margin:40px auto 45px auto;
+	display:block;
+	background:#222;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#start .buy a.btn-inverse:hover
+{
+	background:#333;
+}
+#start .lanyrd a,
+#start .twitter a
+{
+	display:block;
+	color:#fff;
+	font-size:14px;
+	margin-top:54px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	text-shadow:none;
+}
+ 
+#start .buy p
+{
+
+}
+#start .buy p i
+{
+	text-decoration:line-through;
+}
+#speakers h2
+{
+	font-size:20px;
+	line-height:30px;
+	margin-bottom:0;
+}
+#speakers .span4 h2
+{
+}
+#speakers img
+{
+}
+#speakers a
+{
+	font-size:16px;
+}
+#speakers .row
+{
+	padding-bottom:15px;
+}
+#venue p
+{
+	font-size:20px;
+	line-height:30px;
+}
+#shedule h2 
+{
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#shedule h2 i
+{
+	font-family: 'Source Sans Pro', sans-serif;	
+	font-size:22px;
+	display:block;
+}
+/* rooms - such a dirty hack */
+#shedule .room
+{
+	position:relative;
+}
+#shedule .room h3
+{
+	margin:0;
+	margin-bottom:10px;
+	line-height:22px;
+	font-size:16px;	
+}
+#shedule .room h3 strong
+{
+	font-family: 'Revalia', cursive;
+	font-size:22px;
+	padding:10px;
+	border:2px solid #fefefe;
+	border-top:0;
+	border-left:0;	
+	border-radius:8px 0 8px 0;
+	font-weight:normal;
+	text-align:left;
+	width:80px;
+	background:#333;
+	color:#fff;
+	text-align:center;
+	display:block;
+	margin-bottom:20px;
+}
+#shedule .room h3 i
+{
+	font-size:16px;
+	display:block;
+	font-family: 'Source Sans Pro', sans-serif;		
+	display:none;
+}
+#shedule .room p
+{
+	margin:10px 20px;
+	font-size:18px;
+	font-style:italic;
+}
+#shedule .room p i
+{
+	margin:5px 2px 0 8px;
+}
+#shedule .room1 .session,
+#shedule .room2 .session
+{
+	border-radius:8px;
+}
+#shedule .room1 > div
+{
+	/*background:#CA2C79 !important;*/	
+	background:#D95093 !important;	
+}
+#shedule .room2 > div
+{
+	/*background:#6A2B49 !important;*/	
+	background:#B3487B !important;		
+}
+#shedule .room1 > div,
+#shedule .room2 > div
+{
+	margin-left:0;	
+	color:#fff;
+	min-height:180px;
+	text-align:center;
+	margin-left:10px;
+	margin-right:10px;
+}
+#shedule .room1 > div.break,
+#shedule .room2 > div.break
+{
+	color:#fff;
+	text-align:center;
+	padding:5px 0;
+	min-height:20px;
+	text-transform:uppercase;
+	margin-bottom:20px;
+	margin-top:-20px;
+	border-radius:0 0 8px 8px;
+	border-top:2px solid #fefefe;
+	background:#333 !important;	
+}
+#shedule .room1 > div.break i,
+#shedule .room2 > div.break i
+{
+	margin:3px;
+}
+
+#shedule .room1 > div.break.lunch,
+#shedule .room2 > div.break.lunch
+{
+	text-transform:uppercase;
+	padding:15px 0;
+	font-style:normal;
+}
+#shedule .room1 > div.break.lunch i,
+#shedule .room2 > div.break.lunch i
+{
+	margin:6px 0 0 0;
+}
+#shedule .room1 > div.break.lunch p,
+#shedule .room2 > div.break.lunch p
+{
+	font-style:normal;
+}
+#sponsors .sponsor
+{
+	background:#6A2B49 ;
+	margin-bottom:20px;
+	border-radius:6px;
+	padding-bottom:10px;
+}
+#sponsors .partnership p
+{
+	text-align:center;
+}
+#sponsors .partners
+{
+	text-align:center;
+	margin-bottom:20px;
+}
+#sponsors h2
+{
+	font-size:20px;
+	text-align:center;
+}
+#sponsors h2,
+#sponsors h4,
+#sponsors p
+{
+	padding:10px 20px;
+}
+#sponsors .extra
+{
+	font-size:20px;
+	text-align:center;
+}
+footer
+{
+	padding:40px 0 80px 0;
+	background:#fefefe;
+	color:#333;
+}
+footer p
+{
+	font-size:18px;
+	line-height:30px;
+	margin-bottom:30px;
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+}
+/* -------------------------------------------------------------------------------------------- */
+/* Responsive Bullshit */
+/* -------------------------------------------------------------------------------------------- */
+/* Landscape phones and down */
+@media (max-width: 490px){
+body {padding:0 !important;}
+#content .container
+{
+	padding-top:40px !important;
+}
+.navbar
+{
+	margin-bottom:0;
+	background:none;
+	padding:0;
+	height:36px;
+}
+.navbar .nav > li
+{
+	margin:0;
+	padding:0;
+}
+.navbar .nav > li > a
+{
+	font-size:14px;
+	padding:8px 5px;
+}
+.navbar .nav > li > a i
+{
+	display:none;
+}
+#start h2
+{
+	font-size:30px !important;
+	line-height:40px !important;
+}
+#start h3
+{
+	font-size:20px !important;
+	line-height:25px !important;
+}
+#start .lanyrd a, 
+#start .twitter a
+{
+	margin:0 !important;
+}
+#start .buy a.btn-inverse
+{
+	margin:20px auto !important;
+}
+#start .lanyrd a
+{
+	margin-bottom:20px !important;
+}
+#start p
+{
+	font-size:14px !important;
+}
+}
+@media (min-width: 490px) and (max-width: 670px){
+.navbar .nav > li > a
+{
+	padding:8px;
+}
+.navbar .nav > li > a i
+{
+	display:none;
+}
+}
+ /* /max-width: 480px */
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px){
+body {padding:0 !important;}
+.title h1
+{
+	font-size:40px !important;
+	margin-bottom:15px !important;
+}
+.title p
+{
+	font-size:16px !important;
+}
+.navbar
+{
+	margin-bottom:0;
+	background:none;
+	padding:0;
+}
+#start .lanyrd a, 
+#start .twitter a
+{
+	margin:0 !important;
+}
+#start .buy a.btn-inverse
+{
+	margin:10px auto !important;
+}
+#start .twitter a
+{
+	margin-top:20px !important;
+}
+#start .lanyrd a
+{
+	margin-bottom:20px !important;
+}
+#start h2
+{
+	font-size:40px;
+}
+#start p
+{
+	font-size:18px;
+}
+#speakers img,
+#sponsors .sponsor img
+{
+	width:70%;
+	display:block;
+	margin:auto;
+	margin-top:20px;
+}
+#sponsors .sponsor
+{
+	margin-left:10px !important;
+	margin-right:20px !important;
+}
+#sponsors .partners
+{
+	float: left;
+	margin-left: 0;
+	width:33.333333333333%;
+}
+#sponsors .partners img
+{
+	width:92%;
+}
+#speakers .row > div
+{
+	text-align:center;
+}
+#venue > div
+{
+	text-align:center;
+}
+} /* /max-width: 767px */
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px){
+#start h2
+{
+	font-size:60px;
+}
+#shedule .room1 > div,
+#shedule .room2 > div
+{
+	min-height:200px;
+}
+} /* /min-width: 768px | max-width: 979px */
+/* Large desktop */
+@media (min-width: 1200px){
+
+} /* min-width: 1200px) */
