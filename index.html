@@ -6,7 +6,9 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="descripton" content="A gathering of WordPress designers and developers in Sheffield" />
 <meta name="keywords" content="wordpress, sheffield, design, development, php, css, html, js" />
+
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+
 <script src="js/jquery.min.js"></script>
 <script src="js/config.js"></script>
 <script src="js/skel.min.js"></script>
@@ -15,8 +17,13 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/style-desktop.css" />
 </noscript>
-<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+<!--[if lte IE 8]>
+	<script src="js/html5shiv.js"></script>
+	<link rel="stylesheet" href="css/ie8.css" />
+<![endif]-->
+<!--[if lte IE 7]>
+	<link rel="stylesheet" href="css/ie7.css" />
+<![endif]-->
 </head>
 <body>
 
@@ -205,19 +212,18 @@
 </footer>
 
 </div>
+
 <!-- google analytics -->      
 <script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-1833238-16']);
+	_gaq.push(['_trackPageview']);
 
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-1833238-16']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
 </script>
 
 </body>
