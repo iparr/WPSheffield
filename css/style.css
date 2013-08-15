@@ -942,3 +942,11 @@ sub, sup {
     position: relative;
     vertical-align: baseline;
 }
+.announce {
+	background:#D54E21;
+	border-radius: 8px;
+	padding:2em;
+}
+.announce h2 {
+	padding: 1em 0;
+}
