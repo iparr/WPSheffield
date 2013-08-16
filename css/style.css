@@ -65,6 +65,7 @@
 		a:hover
 		{
 			color: #1B75A6 !important;
+			text-decoration: none;
 		}
 
 		a img
@@ -82,12 +83,6 @@
 	{
 		color: #3e3e3e;
 	}
-	
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
-		{
-			text-decoration: none;
-			color: inherit;
-		}
 	
 	h2, h3, h4, h5, h6
 	{
@@ -950,3 +945,4 @@ sub, sup {
 .announce h2 {
 	padding: 1em 0;
 }
+.newsbtn {margin-bottom: 1em;}
