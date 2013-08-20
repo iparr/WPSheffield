@@ -946,3 +946,8 @@ sub, sup {
 	padding: 1em 0;
 }
 .newsbtn {margin-bottom: 1em;}
+
+#top p.or {
+	font-size: 1em;
+	margin-bottom: 0;
+}
