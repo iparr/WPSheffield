@@ -945,9 +945,26 @@ sub, sup {
 .announce h2 {
 	padding: 1em 0;
 }
+.announce h3 {
+	color:#fff;
+}
 .newsbtn {margin-bottom: 1em;}
 
 #top p.or {
 	font-size: 1em;
 	margin-bottom: 0;
+}
+.announce ul.sessions {
+	padding-left: 4%;
+}
+.announce ul.sessions li {
+	color: #fff;
+	list-style: square;
+	margin-top:2%;
+}
+.announce ul.sessions li a {
+	color: #eee;
+}
+.announce ul.sessions li a:hover {
+	color: #fff !important;
 }
